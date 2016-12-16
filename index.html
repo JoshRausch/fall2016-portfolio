@@ -11,6 +11,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,7 +42,7 @@
             </div>
         </div>
     </nav>
-    <main class="container-fluid">
+    <main class="container">
         <div class="jumbotron">
             <h1>My HTML Portfolio</h1>
             <p>My name is Joshua Rausch and I am making this site as part of my HTML class at Hennepin Technical College. Iam am going to Heneepin Tech so that I can get a degree in .Net Programming. With this degree I hope to get a job doing something in the programming or IT field.</p>
@@ -69,6 +70,7 @@
                 </div>
             </div>
         </div>
+        <br>
         <div class="row" id="Tech">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <h3 class="text-center">Technical Skills</h3>
@@ -81,19 +83,20 @@
                 </ul>
             </div>
         </div>
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <br>
+        <div id="site-carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#site-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#site-carousel" data-slide-to="1"></li>
+                <li data-target="#site-carousel" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" id="Project" role="listbox">
                 <div class="item active">
                     <div class="container-fluid img-responsive">
-                        <a href="https://joshrausch.github.io/cs-pacific-trails/"><img src="images/Pacific.png" alt="Pacific page"></a>
+                        <a href="https://joshrausch.github.io/cs-pacific-trails/"><img src="images/Pacific.png" class="img-responsive center-block" alt="Pacific page"></a>
                         <div class="carousel-caption">
                             My Pacific Trails page
                         </div>
@@ -101,7 +104,7 @@
                 </div>
                 <div class="item">
                     <div class="container-fluid img-responsive">
-                        <a href="https://joshrausch.github.io/fan-page/"><img src="images/Fan-page.png" alt="fan page"></a>
+                        <a href="https://joshrausch.github.io/fan-page/"><img src="images/Fan-page.png" class="img-responsive center-block" alt="fan page"></a>
                         <div class="carousel-caption">
                             My fan page
                         </div>
@@ -109,7 +112,7 @@
                 </div>
                 <div class="item">
                     <div class="container-fluid img-responsive">
-                        <a href="https://joshrausch.github.io/veggies-bootstrap/"><img src="images/Veggies.png" alt="veggies page"></a>
+                        <a href="https://joshrausch.github.io/veggies-bootstrap/"><img src="images/Veggies.png" class="img-responsive center-block" alt="veggies page"></a>
                         <div class="carousel-caption">
                             My Ms. B's Veggies Page
                         </div>
@@ -119,11 +122,11 @@
             </div>
 
             <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#site-carousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <a class="right carousel-control" href="#site-carousel" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -135,6 +138,7 @@
             <a href="mailto:Joshua@Rausch.com"> Contact at Joshua@Rausch.com</a>
             <br>
             <p><span class="feature">Copyright &copy; 2016 Joshua Rausch</span></p>
+            <a href="http://paletton.com/palette.php?uid=34P0u0kicsz8fL3dqzmmgooqgjU">Paletton</a>
         </div>
     </footer>
 
